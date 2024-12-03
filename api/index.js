@@ -21,13 +21,17 @@ app.use("/api/posts", postRouter);
 app.use("/api/users", userRouter);
 
 app.get("/", (req, res) => {
-    res.status(200).send("API is runing...");
+    res.json({ message: "Hello from the API!" });
 });
 
 // Custom error handling middleware
 app.use(notFound);
 app.use(errorHandler);
 
-app.listen(port, () => {
-    console.log(`App runing on port: ${port}`);
+app.get("/api", (req, res) => {
+    res.json({ message: "Hello from the API!" });
 });
+
+// app.listen(port, () => {
+//     console.log(`App runing on port: ${port}`);
+// });
