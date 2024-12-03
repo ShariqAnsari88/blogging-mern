@@ -2,7 +2,7 @@
     "name": "bloging-app-mern",
     "version": "1.0.0",
     "description": "Bloging app with all crud operations and user authentication",
-    "main": "server.js",
+    "main": "backend/server.js",
     "type": "module",
     "scripts": {
         "start": "node backend/server.js",
