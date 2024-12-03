@@ -1,0 +1,25 @@
+{
+    "name": "bloging-app-mern",
+    "version": "1.0.0",
+    "description": "Bloging app with all crud operations and user authentication",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+        "start": "node backend/server.js",
+        "server": "nodemon backend/server.js"
+    },
+    "author": "Mohd Shariq",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "cookie-parser": "^1.4.7",
+        "dotenv": "^16.4.5",
+        "express": "^4.21.1",
+        "jsonwebtoken": "^9.0.2",
+        "mongoose": "^8.8.3",
+        "nodemailer": "^6.9.16"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.7"
+    }
+}
