@@ -28,10 +28,6 @@ app.get("/", (req, res) => {
 app.use(notFound);
 app.use(errorHandler);
 
-app.get("/api", (req, res) => {
-    res.json({ message: "Hello from the API!" });
-});
-
 // app.listen(port, () => {
 //     console.log(`App runing on port: ${port}`);
 // });
