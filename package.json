@@ -2,12 +2,11 @@
     "name": "bloging-app-mern",
     "version": "1.0.0",
     "description": "Bloging app with all crud operations and user authentication",
-    "main": "index.js",
+    "main": "server.js",
     "type": "module",
     "scripts": {
-        "start": "node api/index.js",
-        "server": "nodemon api/index.js",
-        "vercel-build": "npm install"
+        "start": "node backend/server.js",
+        "server": "nodemon backend/server.js"
     },
     "author": "Mohd Shariq",
     "license": "ISC",
