@@ -7,7 +7,7 @@
     "scripts": {
         "start": "node backend/server.js",
         "server": "nodemon backend/server.js",
-        "build": "nodemon backend/server.js"
+        "build": "echo 'No build step required'"
     },
     "author": "Mohd Shariq",
     "license": "ISC",
