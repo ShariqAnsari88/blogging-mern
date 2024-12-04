@@ -6,7 +6,8 @@
     "type": "module",
     "scripts": {
         "start": "node backend/server.js",
-        "server": "nodemon backend/server.js"
+        "server": "nodemon backend/server.js",
+        "build": "nodemon backend/server.js"
     },
     "author": "Mohd Shariq",
     "license": "ISC",
